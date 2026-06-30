@@ -1,2 +1,2 @@
 # Food-Delivery
-Foodies Delivery - Payment with RazorPay
+Foodies Delivery - Integrate  Payment Gateway Sepay 
