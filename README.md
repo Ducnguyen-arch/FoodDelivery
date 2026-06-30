@@ -1,9 +1,6 @@
-# FoodDelivery
+# Food Delivery ( ReactJS + Vite + Java Spring Boot + MongoDB)
 
 Foodies Delivery - Payment with Sepay
-
-[![Build status](https://img.shields.io/badge/build-pending-lightgrey.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
 Table of Contents
 - [Overview](#overview)
@@ -28,7 +25,7 @@ Table of Contents
 
 Overview
 --------
-FoodDelivery is a Spring Boot microservice / web application that powers a food ordering and delivery system, with integrated payment processing via Sepay. It provides REST APIs for customers, restaurants, orders, and payments.
+FoodDelivery is a Spring Boot microservice/web application that powers a food ordering and delivery system, with integrated payment processing via Sepay. It provides REST APIs for customers, restaurants, orders, and payments.
 
 Features
 --------
@@ -46,9 +43,8 @@ Tech stack
 - Spring Boot (3.x+ recommended)
 - Spring Security (JWT)
 - Spring Data JPA (Hibernate)
-- PostgreSQL (or other relational DB)
-- Flyway or Liquibase for DB migrations
-- Maven (or Gradle) as build tool
+- PostgreSQL / MongoDB
+- Maven as build tool
 - Optional: Docker for containerization
 
 Architecture
@@ -66,7 +62,7 @@ These instructions will get you a copy of the project up and running locally.
 Prerequisites
 - Java 17+ installed (JAVA_HOME configured)
 - Maven 3.6+ (or use the included mvnw)
-- PostgreSQL (or other supported RDBMS)
+- PostgreSQL (or other supported RDBMS) / MongoDB
 - Docker (optional, for containers)
 - Sepay account and API credentials (merchant ID, secret key)
 
@@ -231,9 +227,7 @@ This project is released under the MIT License. See LICENSE for details.
 
 Contact
 -------
-- Maintainer: Duc Nguyen (Ducnguyen-arch)
-- Repo: https://github.com/Ducnguyen-arch/FoodDelivery
-
+- Developer: Duc Nguyen (Ducnguyen-arch)
 Troubleshooting
 ---------------
 - Cannot connect to DB: verify DB_HOST, DB_PORT, DB_USER, DB_PASSWORD and network access.
