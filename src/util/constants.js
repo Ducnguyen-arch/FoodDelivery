@@ -1,0 +1,6 @@
+export const RAZORPAY_KEY = "rzp_test_us_T5xDqh8d90KF3J"
+// O8GVbkl29FWt6qWPAlYfwqeL
+
+//rzp_test_us_T5xDqh8d90KF3J razorpay_key
+
+export const  SEPAY_KEY = "OCJP0EGZSX4DLCACKQPUWOR49LVYZLNMHWBHDSZAMAJG9MTQF0QGSJPBD6G7U18F"; //API KEY
